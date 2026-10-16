@@ -30,7 +30,12 @@ jobs:
         run: |
           pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
           pip install -r requirements.txt pytest httpx
-
+      - name: Debug - show repo files
+        run: |
+          pwd
+          ls -la
+          ls -la tests || echo "tests/ folder not found"
+          pytest --collect-only -q || true
       - name: Run tests
         run: pytest -q
 
