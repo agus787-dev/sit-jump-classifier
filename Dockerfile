@@ -17,6 +17,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY --chown=user src ./src
 COPY --chown=user api ./api
 COPY --chown=user models ./models
+COPY --chown=user tests ./tests
 
 # Hugging Face expects the app to listen on port 7860
 EXPOSE 7860
