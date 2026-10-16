@@ -73,7 +73,7 @@ jobs:
           # Clean copy with only what the Space needs
           # (no test videos, notebooks, tests and no old git history)
           mkdir /tmp/space
-          cp -r Dockerfile .dockerignore README.md requirements-docker.txt api src models /tmp/space/
+          cp -r Dockerfile .dockerignore README.md requirements.txt api src models /tmp/space/
           cd /tmp/space
 
           git init -b main
