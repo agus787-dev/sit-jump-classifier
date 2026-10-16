@@ -1,0 +1,18 @@
+# Virtual environments
+myenv/
+venv/
+.venv/
+
+# Big generated folders (data and results are re-created by the pipeline)
+data/
+outputs/
+
+# Python / Jupyter / OS
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Model weights
+*.pth
+!models/*.pth

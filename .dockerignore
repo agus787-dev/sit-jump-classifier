@@ -1,0 +1,14 @@
+myenv/
+venv/
+.venv/
+data/
+outputs/
+tests/
+.git/
+.gitignore
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+*.zip
+README.md
