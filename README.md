@@ -1,3 +1,13 @@
+---
+title: Sit Jump API
+emoji: 🏃
+colorFrom: blue
+colorTo: purple
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # Sit / Jump video recognition
 
 Classify short videos as `jump` or `sit` using a small CNN (HMDB51 dataset).
